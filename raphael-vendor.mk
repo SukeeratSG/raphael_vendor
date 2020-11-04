@@ -1308,7 +1308,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
     vendor/xiaomi/raphael/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
     vendor/xiaomi/raphael/proprietary/vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_version_update_ecc_table.sql \
-    vendor/xiaomi/raphael/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
+    vendor/xiaomi/raphael/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_throne_room_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_throne_room_down.ogg \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_throne_room_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_throne_room_up.ogg \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_lightsaber_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_lightsaber_down.ogg \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_lightsaber_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_lightsaber_up.ogg \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_imperial_march_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_imperial_march_down.ogg \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_imperial_march_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_imperial_march_up.ogg \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_super_mario_down.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_super_mario_down.ogg \
+    vendor/xiaomi/raphael/proprietary/media/audio/ui/popup_super_mario_up.ogg:$(TARGET_COPY_OUT_SYSTEM)/media/audio/ui/popup_super_mario_up.ogg 
+
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
